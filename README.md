@@ -1,6 +1,6 @@
 # ScalaTest on Android
 
-Trying to write some Scala using Eclipse code and have it run on Android. 
+Trying to write some Scala using Eclipse and have it run on Android. 
 
 ## Steps:
 
