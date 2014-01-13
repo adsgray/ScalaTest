@@ -2,7 +2,7 @@
 
 Trying to write some Scala using Eclipse code and have it run on Android. 
 
-Steps:
+## Steps:
 
 0. Install Eclipse, Android Dev Tools, and AndroidProguardScala plugin
 1. Create new Android Application in Eclipse in the normal way.
@@ -14,8 +14,7 @@ Steps:
 
 Now you can add AndroidProguardScala nature and build again. It takes a while.
 
-
-TODO/ToTry:
+## TODO/ToTry:
 
 1. A Scala class that extends Android.Activity and go to it with an Intent
 2. Incorporating Scaloid? (set up sbt just to get the dependencies)
