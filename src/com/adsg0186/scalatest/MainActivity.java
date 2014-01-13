@@ -17,7 +17,8 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
-        ToastMessage.makeToastButton((Button)findViewById(R.id.toastbutton), getApplicationContext());
+        //ToastMessage.makeToastButton((Button)findViewById(R.id.toastbutton), getApplicationContext());
+        ToastMessage.makeToastButton2((Button)findViewById(R.id.toastbutton), getApplicationContext());
         return true;
     }
 
