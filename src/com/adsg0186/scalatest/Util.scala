@@ -8,8 +8,9 @@ import android.widget.Toast
 import java.util.Random
 
 // I can see why Scaloid made Context an implicit parameter.
+
 object ClickListener {
-  def apply(f:View => Unit, c:Context) = new OnClickListener() {
+  def apply(f:View => Unit) = new OnClickListener() {
       @Override def onClick(v:View) = f(v)
   }
 }
@@ -27,7 +28,7 @@ object ToastMessage {
   }
   
   def makeToastButton2(b:Button, c:Context) = 
-    b.setOnClickListener(ClickListener({ v => Toast.makeText(c, message, Toast.LENGTH_SHORT).show() }, c))
+    b.setOnClickListener(ClickListener { v => Toast.makeText(c, message, Toast.LENGTH_SHORT).show() })
 }
 
 class Util {
