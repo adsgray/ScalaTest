@@ -16,6 +16,7 @@ Now you can add AndroidProguardScala nature and build again. It takes a while.
 
 
 TODO/ToTry:
+
 1. A Scala class that extends Android.Activity and go to it with an Intent
 2. Incorporating Scaloid? (set up sbt just to get the dependencies)
 3. A Scala class that implements blobengine Game interface and uses blobengine
