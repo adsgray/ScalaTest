@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
+public class OldMainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +22,8 @@ public class MainActivity extends Activity {
         b.setOnClickListener(new OnClickListener() {
             // TODO: do this in Scala
             @Override public void onClick(View v) {
-                Intent myIntent = new Intent(MainActivity.this, TestActivity.class);
-                MainActivity.this.startActivity(myIntent);
+                Intent myIntent = new Intent(OldMainActivity.this, TestActivity.class);
+                OldMainActivity.this.startActivity(myIntent);
             }
         });
     }
