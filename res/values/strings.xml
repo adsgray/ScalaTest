@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="toastbutton">Make Toast!</string>
     <string name="lookattony">Look at Tony</string>
+    <string name="gdx">GDX</string>
 
 </resources>

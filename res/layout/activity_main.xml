@@ -32,4 +32,12 @@
         android:layout_marginTop="86dp"
         android:text="@string/lookattony" />
 
+    <Button
+        android:id="@+id/gdxbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/gdx" />
+
 </RelativeLayout>
