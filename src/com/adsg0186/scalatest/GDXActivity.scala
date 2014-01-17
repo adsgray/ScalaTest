@@ -49,11 +49,11 @@ class GDXActivity extends AndroidApplication with ActivityUtil {
 	    //GameFactory.populateWorldWithBlobs(world, numBlobs, renderConfig);
 	    //GameFactory.populateWorldNonRandom(world, renderConfig);
 	    //GameFactory.populateWorldNonRandomBlobSet(world, renderConfig);
-	    //GameFactory.populateWorldLaunchUp(world, renderConfig);
+	    GameFactory.populateWorldLaunchUp(world, renderer);
 	    //GameFactory.populateWorldOoze(world, renderConfig);
 	    //GameFactory.populateWorldCollisionTest(world, renderConfig);
 	    //GameFactory.populateWorldTestTriggers(world, renderConfig);
-	    GameFactory.populateWorldTestTriggersAgain(world, renderer);
+	    //GameFactory.populateWorldTestTriggersAgain(world, renderer);
 	    //GameFactory.populateWorldGameTestOne(world, renderConfig);
 	    //GameFactory.populateWorldTestOffsetPosition(world, renderConfig);
 	    //GameFactory.populateWorldTestBumpAccel(world, renderConfig);

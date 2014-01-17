@@ -19,8 +19,9 @@ Now you can add AndroidProguardScala nature and build again. It takes a while.
 1. ~~A Scala class that extends Android.Activity and go to it with an Intent~~
 2. ~~MainActivity.scala~~
 3. ~~use libGDX~~
-3. Test if AndroidProguardScala is compatible with my libGDX
-   proguard config.
+3. ~~Test if AndroidProguardScala is compatible with my libGDX
+   proguard config.~~ Had to add -libraryjars, -keep, and -dontwarn for Scala
+   lib 
 4. A Scala class that implements blobengine Game interface and uses blobengine
    classes.
 5. Incorporating Scaloid? (set up sbt just to get the dependencies)
